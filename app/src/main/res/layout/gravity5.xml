@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <!-- relation between parent (LinearLayout) and child any
+
+   if children are [[ match_parent ]] n u setting them by weight ..they still
+   have space inside to go around ..so you can set gravtity of particular child ..
+
+    -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Men Hairstyles" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Men Hairstyles" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Men Hairstyles" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

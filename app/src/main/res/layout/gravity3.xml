@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <!-- relation between parent (LinearLayout) and child any
+
+   if child is [[ match_parent ]]  then dont need to give  gravity  to parent
+ .. child is match parent so it has enough sapce to move around you can give gravity to
+ child only...
+    -->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Men Hairstyles" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

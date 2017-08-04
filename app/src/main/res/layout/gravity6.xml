@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <!-- relation between parent (LinearLayout) and child any
+   if parent width is match parent n height is wrap content ..
+   n child is wrap content ...then parent still has width sapce to move the
+   child around ..so you can still set gravtity to parent ..to move child
+   horizontally ..
+    -->
+
+    <LinearLayout
+
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men Hairstyles" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

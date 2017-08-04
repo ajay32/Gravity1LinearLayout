@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <!-- relation between parent (LinearLayout) and child any
+
+   if child is [[ match_parent ]]  then dont need to give  gravity  to parent
+if only child width is match_parent then by giving gravity to child you can
+move child horizontally...
+    -->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Men Hairstyles" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
